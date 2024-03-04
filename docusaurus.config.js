@@ -61,7 +61,7 @@ const config = {
           //   label: 'Docs',
           // },
           {
-            href: 'https://www.quartzdev.gg/paypal/',
+            href: '/paypal/',
             className: "header-icon-link header-paypal-link",
             position: "right",
           },
@@ -72,7 +72,7 @@ const config = {
             position: "right",
           },
           {
-            href: 'https://www.quartzdev.gg/discord/',
+            href: '/discord/',
             className: "header-icon-link header-discord-link",
             // label: "Discord",
             position: "right",
@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://www.quartzdev.gg/dumcord/',
+                href: '/discord/',
               },
               {
                 label: 'X',
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'Donate',
-                href: 'https://www.quartzdev.gg/paypal/',
+                href: '/paypal/',
               },
               {
                 label: 'Modrinth',
