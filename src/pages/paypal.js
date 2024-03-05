@@ -1,3 +1,6 @@
+import React from "react";
+import Layout from "@theme/Layout";
+import Link from '@docusaurus/Link';
 import BrowserOnly from "@docusaurus/BrowserOnly"
 
 const url = "https://www.paypal.com/donate/?hosted_button_id=MP5VDJYTS6RQJ"
