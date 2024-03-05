@@ -118,3 +118,11 @@
 [data-theme="dark"] .hero__subtitle {
   color: black;
 }
+
+.route {
+  display: flex;
+  justify-content: 'center';
+  align-items: 'center';
+  height: '50vh';
+  font-size: '20px';
+}
