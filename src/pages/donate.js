@@ -5,7 +5,7 @@ import BrowserOnly from "@docusaurus/BrowserOnly"
 
 const url = "https://www.paypal.com/donate/?hosted_button_id=MP5VDJYTS6RQJ"
 
-const MyComponent = () => {
+const Redirect = () => {
   return (
     <BrowserOnly>
       {() => <script>
@@ -27,11 +27,11 @@ export default function permanentRedirect(){
           height: '50vh',
           fontSize: '20px',
         }}>
-      <MyComponent></MyComponent>
+      <Redirect></Redirect>
       <Link
         className="button button--secondary button--lg"
         to="https://discord.gg/QM7dG78rNW">
-        quartzdev Discord
+        Redirecting... If it fails, click here
       </Link>
       </div>
     </Layout>
