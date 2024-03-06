@@ -108,8 +108,8 @@ const config = {
                 href: '/discord/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/QarthO/',
+                label: 'Twitter',
+                href: 'https://twitter.com/quartzdevgg',
               },
             ],
           },
