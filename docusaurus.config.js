@@ -46,8 +46,8 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
-        respectPrefersColorScheme: true,
+        disableSwitch: true,
+        // respectPrefersColorScheme: true,
       },
       image: 'img/gp-logo-wide',
       navbar: {
