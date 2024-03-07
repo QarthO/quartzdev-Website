@@ -54,7 +54,7 @@ const config = {
         title: 'quartzdev',
         logo: {
           alt: 'quartzdev.gg Logo',
-          src: 'img/gp-logo-icon.png',
+          src: 'img/quartzdev-icon.png',
         },
         items: [
           // {
