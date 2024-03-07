@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'quartzdev.gg',
   tagline: 'Website coming soon. Join the Discord for updates',
-  // favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://quartzdev.gg/',
@@ -52,10 +52,10 @@ const config = {
       image: 'img/gp-logo-wide',
       navbar: {
         title: 'quartzdev',
-        // logo: {
-        //   alt: 'quartzdev.gg Logo',
-        //   src: 'img/gp-logo-icon.png',
-        // },
+        logo: {
+          alt: 'quartzdev.gg Logo',
+          src: 'img/gp-logo-icon.png',
+        },
         items: [
           // {
           //   type: 'docSidebar',
