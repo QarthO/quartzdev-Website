@@ -3,6 +3,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
+import Link from '@docusaurus/Link';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -10,7 +11,11 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
-        <a href="https://www.quartzdev.gg/discord" className="hero__subtitle">{siteConfig.tagline}</a>
+        <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
+          {/* {siteConfig.tagline} */}
+        <Link className="button button--secondary button--lg" to="https://www.quartzdev.gg/discord">
+          Discord
+        </Link>
       </div>
     </header>
   );
