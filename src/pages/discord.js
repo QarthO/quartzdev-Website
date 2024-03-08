@@ -5,6 +5,7 @@ import BrowserOnly from "@docusaurus/BrowserOnly"
 
 const url = "https://discord.gg/QM7dG78rNW"
 const text = "Discord"
+const color = "#5865F2"
 
 const Redirect = () => {
   return (
@@ -32,6 +33,11 @@ export default function permanentRedirect(){
         <h2>Redirecting... click below if it takes too long</h2>
         <Link
           className="button button--secondary button--lg"
+          style={{
+            backgroundColor: color,
+            color: "white",
+            border: "none"
+          }}
           to={url}>
           {text}
         </Link>
