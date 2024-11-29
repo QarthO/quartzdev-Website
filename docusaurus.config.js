@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'quartzdev.gg',
-  tagline: 'Website coming soon. Join the Discord for updates',
+  tagline: 'Website coming soon. Join the Discord for updates!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
