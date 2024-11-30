@@ -150,16 +150,13 @@ const config = {
         },
       ],
     ],
-};
-
-module.exports = {
-  scripts: [
-    {
-      src: "https://plausible-fwwoks0s8w8g8w4k0wkg0oog.ash01.qdev.gg/js/script.file-downloads.hash.outbound-links.js",
-      defer: true,
-      "data-domain": "quartzdev.gg",
-    },
-  ],
+    scripts: [
+      {
+        src: "https://plausible-fwwoks0s8w8g8w4k0wkg0oog.ash01.qdev.gg/js/script.file-downloads.hash.outbound-links.js",
+        defer: true,
+        "data-domain": "quartzdev.gg",
+      },
+    ]
 };
 
 export default config;
